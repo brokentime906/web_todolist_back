@@ -14,7 +14,7 @@
     "prisma": "yarn deploy && yarn generate",
     "prebuild": "yarn run generate",
     "build": "babel src -d build",
-    "postbuild": "npx copy ./src/api/**/*.graphql ./build/api/",
+    "postbuild": "cd src && npx copy ./api/**/*.graphql ../build/api/",
     "start": "node build/server.js"
   },
   "dependencies": {

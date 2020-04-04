@@ -1,7 +1,7 @@
 generated
 datamodel.prisma
 prisma.yml
-
+build
 # Logs
 logs
 *.log

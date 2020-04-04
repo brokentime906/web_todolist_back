@@ -1,0 +1,13 @@
+type User {
+  id: ID! @id
+  name: String @unique
+  secret: String
+}
+type Todo {
+  id: ID! @id
+  title: String
+  contents: String
+  done: Boolean @default(value:false)
+    createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}

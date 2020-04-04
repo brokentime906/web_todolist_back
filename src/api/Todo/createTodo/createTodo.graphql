@@ -1,0 +1,3 @@
+type Mutation {
+  createTodo(contents: String, done: Boolean): Todo
+}

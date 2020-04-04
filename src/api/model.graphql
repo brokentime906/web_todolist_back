@@ -1,0 +1,13 @@
+type User {
+  id: ID!
+  name: String
+  secret: String
+}
+type Todo {
+  id: ID!
+  title: String
+  contents: String
+  done: Boolean
+  createdAt: String!
+  updatedAt: String!
+}
